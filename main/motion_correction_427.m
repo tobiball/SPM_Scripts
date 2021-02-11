@@ -1,12 +1,8 @@
 %-----------------------------------------------------------------------
-% Job saved on 20-Dec-2019 16:08:03 by cfg_util (rev $Rev: 6942 $)
 % spm SPM - SPM12 (7219)
-% cfg_basicio BasicIO - Unknown
 %-----------------------------------------------------------------------
-
-% Script created by Andrew Jahn, University of Michigan, 10 January 2020
-% This script is designed to analyze the Flanker dataset (https://openneuro.org/datasets/ds000102/versions/00001)
-% It is used during the Scripting chapter of the SPM walkthrough (https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Short_Course/SPM_06_Scripting.html)
+% Based on script by Andrew Jahn
+% Build to analyse subject fmri data from assignment in methods for neuroeconomists at uva
 
 subjects = [427]; % Replace with a list of all of the subjects you wish to analyze
 
