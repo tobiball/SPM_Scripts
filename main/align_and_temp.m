@@ -7,8 +7,8 @@
 clear
 
 % specify subjects and path
-subjects = [427,437,438,439,440,441]; % Replace with a list of all of the subjects you wish to analyze
-path = '/home/tobi/projects/uni/meths_for_neuro/data/' %specify path where subject data is saved
+subjects = []; % Replace with a list of all of the subjects you wish to analyze
+path = '/home/tobi/projects/uni/meths_for_neuro/data/'; %specify path where subject data is saved
 
 % %Iterate over subjects
 for subject=subjects
