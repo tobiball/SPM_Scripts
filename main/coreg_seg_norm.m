@@ -7,7 +7,7 @@
 clear
 
 % specify subjects and path
-subjects = [438,439,440.441]; % Replace with a list of all of the subjects you wish to analyze
+subjects = [438,439,440,441]; % Replace with a list of all of the subjects you wish to analyze
 path = '/home/tobi/projects/uni/meths_for_neuro/data/'; %specify path where subject data is saved
 % %Iterate over subjects
 for subject=subjects
@@ -33,7 +33,7 @@ for subject=subjects
     smatlabbatch{1}.spm.spatial.preproc.tissue(1).tpm = {'/home/tobi/projects/uni/meths_for_neuro/spm/spm12/tpm/TPM.nii,1'};
     smatlabbatch{1}.spm.spatial.preproc.tissue(1).ngaus = 1;
     smatlabbatch{1}.spm.spatial.preproc.tissue(1).native = [1 0];
-    smatlabbatch{1}.spm.spatial.preproc.tissue(1).warped = [0 0];
+    smatlabbatch{1}.spm.spatial.preproc.tissue(1).warped = [0 0];x
     smatlabbatch{1}.spm.spatial.preproc.tissue(2).tpm = {'/home/tobi/projects/uni/meths_for_neuro/spm/spm12/tpm/TPM.nii,2'};
     smatlabbatch{1}.spm.spatial.preproc.tissue(2).ngaus = 1;
     smatlabbatch{1}.spm.spatial.preproc.tissue(2).native = [1 0];
